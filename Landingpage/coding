@@ -1,1 +1,621 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photography Website</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>PHOTOGRAPHER<h3>
+                    <div><img src = "https://i.pinimg.com/originals/c0/6a/08/c06a08ea9251aa54cd177b6fb1af1d90.png"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#About Me">About Me</a></li>
+                        <li><a href = "#Work">Work</a></li>
+                        <li><a href = "#Portfolio">Portfolio</a></li>
+                        <li><a href = "#Contact Me">Contact Me</a></li>
+                        <li><a href = "#Instagram">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <!-- header -->
+    
+    <section class="About"</section>
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>FRANKLY STEVE<br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["photographer", "videographer", "video editor"]'></span></h1>
+                <h3>PHOTOGRAPHY</h3>
+
+                <ul class = "social-links">
+                    <li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-pinterest"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</section>
+    </body>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <main>
+        <!-- about section -->
+        
+        <section class="About Me" id="About Me"
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src ="https://www.prnewsonline.com/wp-content/uploads/2018/04/shutterstock_763047211-540x304.jpg" alt = "">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>About Me</h2>
+                        <p class = "lead">Professional photographer Kanishka combines her photography degree with her marketing degree to find the right balance between creativity and commercial sinse. Kanishka is an experienced all round photographer and moved to New York at the end of 2020.</p>
+                        <p class = "lead">We can checkout her recent works and experiences below. She considers photography as her passion more than profession.</p>
+                        <a href = "#work" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
+
+        <!-- work section -->
+        <section class="Work" id="Work"
+        
+        <section id = "work" class = "vh-100 flex py-7">
+            <div class = "container">
+                <div class = "work-content">
+                    <div class = "title">
+                        <h2>what am i doing?</h2>
+                    </div>
+                    <ul class = "work-top grid">
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> We work according to the guidelines of the Indian Institute of Digital Photography with regard to color management and file handling.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Your files will be stored multiples times on two locations</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> We work with the terms and conditions of the institute, registered at the court Delhi with number 08/2018.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> We always have back-up equipment at hand, also on location.</li>
+                    </ul>
+
+                    <div class = "work-bottom grid">
+                        <div>
+                            <span class = "icon"><img src = "https://images.pexels.com/photos/2862070/pexels-photo-2862070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></span>
+                            <h3>Wildlife</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "https://images.pexels.com/photos/1431465/pexels-photo-1431465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"></span>
+                            <h3>Portrait</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA45E0Sv6FUVvp4vnCBv0aF3UxqGvXmqXWqw&usqp=CAU"></span>
+                            <h3>Landscape</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "https://brightfocusphotography.com/wp-content/uploads/2020/09/keychimp16.jpg"></span>
+                            <h3>Family</h3>
+                        </div>
+                    </div>
+                    <a href = "#portfolio" class = "btn-down btn-down-white">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of work section -->
+
+        <!-- portfolio section -->
+        <section class="Portfolio" id="Portfolio"
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>my last works</h2>
+                        <a href = "#contact" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "https://fashiontravelrepeat.com/wp-content/uploads/2019/07/Best-Instagram-Spots-London-Harrods-2-819x1024.jpg"></div>
+                        <div><img src = "https://imageio.forbes.com/specials-images/imageserve/5d46a8bc37f1f90008ec375d/Pelican/960x0.jpg?format=jpg&width=960"></div>
+                        <div><img src = "https://ichef.bbci.co.uk/news/976/cpsprodpb/14C07/production/_103299948_mdrum_silhouettes_of_africa-2.jpg"></div>
+                        <div><img src = "https://i0.wp.com/photofocus.com/wp-content/uploads/2014/01/Portrait-tips-levi-featured.jpg?fit=2560%2C1440&ssl=1"></div>
+                        <div><img src = "https://syedwildlifephotography.co.uk/wp-content/uploads/2022/05/Kingfisher-S-600x600.jpg"></div>
+                        <div><img src="https://dvyvvujm9h0uq.cloudfront.net/com/articles/1543483387-reinhart-julian-1145947-unsplash.jpg"></div>
+                        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkRhZ6Lwo34HqL4dHuT-S6FV6X_2nA-iq_EvlRK4i1m89wGjRgtuEanAu1cchAZQALS3M&usqp=CAU"</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of portfolio section -->
+
+        <!-- contact section -->
+        <section class="Contact Me" id="Contact Me"
+        <section id = "contact" class = "py-7">
+            <div class = "container">
+                <div class = "contact-content flex">
+                    <div class = "contact-left">
+                        <div class="title">
+                            <h2>contact with me</h2>
+                        </div>
+                        <p class = "lead"><i class = "fas fa-phone-alt"></i> +001 343 (7485)</p>
+                        <p class = "lead"><i class = "fas fa-envelope"></i> contact@gmail.com</p>
+                        <form action="">
+                            <input type = "text" class = "form-control" placeholder="Your name here ...">
+                            <input type = "email" class = "form-control" placeholder="Your email here">
+                            <input type = "submit" class = "btn-submit btn" value = "Submit">
+                        </form>
+                    </div>
+
+                    <div class = "contact-right">
+                        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPCXISA7AWonO3J24GKCgtJ9e4OTuaJHSBM7rcN3j28GfR6eJAJTe1Gi_AlJpG6wuFnCs&usqp=CAU" alt = "contact image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
+
+        <!-- instagram section -->
+        <section class="Instagram" id="Instagram"
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>instagram</h2>
+                        <a href = "#footer" class = "btn-down btn-down-white">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><img src = "data:image/jpeg;base64,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"></div>
+                        <div><img src = "https://i.pinimg.com/originals/a7/ba/2b/a7ba2b997909d2162b31115476aafa81.jpg"></div>
+                        <div><img src = "https://images.squarespace-cdn.com/content/v1/54a4656fe4b037e9babd6ec9/1525669925757-IR2EG4NQ7B7SCU776P1W/ke17ZwdGBToddI8pDm48kHH9S2ID7_bpupQnTdrPcoF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0nQwvinDXPV4EYh2MRzm-RRB5rUELEv7EY2n0AZOrEupxpSyqbqKSgmzcCPWV5WMiQ/Blog+images-17.jpg"></div>
+                        <div><img src = "http://www.wherelifeisgreat.com/wp-content/uploads/2019/03/london901-1-of-1small-819x1024.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of instagram section -->
+    </main>
+    <!-- end of main content -->
+
+    <!-- footer -->
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>PHOTOGRAPHER<h3>
+                    <div><img src = "https://i.pinimg.com/originals/c0/6a/08/c06a08ea9251aa54cd177b6fb1af1d90.png"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#">About Me</a></li>
+                        <li><a href = "#">Work</a></li>
+                        <li><a href = "#">Portfolio</a></li>
+                        <li><a href = "#">Contact Me</a></li>
+                        <li><a href = "#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- typewriting js -->
+    <script src = "typewriting-master/typewriting.js"></script>
+</body>
+</html>
+css@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --transition: all 300ms ease-in-out;
+    --dark-color: #332e29;
+    --light-color: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+button, .btn{
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.vh-100{
+    min-height: 100vh;
+}
+h1, h2, h3{
+    margin-top: 0;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    color: aquamarine;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.py-7{
+    padding: 7rem 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+.lead{
+    opacity: 0.8;
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+/* header */
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/header-banner.jpg') center/cover no-repeat fixed;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-image: url(https://images.shiksha.com/mediadata/images/articles/1439545106phpuJSsZN.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header .container{
+    width: 100%;
+}
+.header-content{
+    padding-bottom: 4rem;
+}
+.header-content h1{
+    font-size: 4.5rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.header-content h3{
+    color: var(--light-color);
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+.social-links{
+    display: flex;
+    margin-top: 3.5rem;
+}
+.social-links li a{
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-color);
+    margin-right: 1rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+.social-links li a:hover{
+    opacity: 0.9;
+}
+
+/* about */
+.about-left{
+    margin-bottom: 4rem;
+    height: 480px;
+    overflow: hidden;
+}
+/* button down and title -reusable */
+.btn-down{
+    font-size: 3rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: var(--transition);
+}
+.btn-down:hover{
+    opacity: 0.8;
+    transform: translateY(5px);
+}
+.btn-down-white{
+    color: var(--light-color);
+}
+.title{
+    margin-bottom: 5rem;
+}
+.title h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    position: relative;
+}
+.title h2::after{
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background-color:black;
+}
+
+/* work */
+#work{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/work-pic.jpg') center/cover no-repeat fixed;
+    color: black;
+}
+#work .title h2, #work h3{
+    color: blue;
+}
+#work .title h2::after{
+    background:blue;
+}
+.work-bottom{
+    margin-top: 4rem;
+    text-align: center;
+}
+.work-bottom > div .icon img{
+    width: 50px;
+    margin: 0 auto 1.7rem auto;
+}
+/* portfolio */
+.portfolio-grid > div{
+    transition: var(--transition);
+}
+.portfolio-grid > div:hover{
+    transform: scale(0.9);
+}
+
+/* contact */
+#contact{
+    background-color: rgb(248, 248, 248);
+}
+.contact-content{
+    flex-direction: column;
+    align-items: stretch;
+}
+.contact-left{
+    margin-bottom: 5rem;
+}
+.contact-left .lead{
+    padding: 0.5rem;
+}
+.contact-left form{
+    margin-top: 3rem;
+}
+.contact-left form .form-control{
+    display: block;
+    margin: 1.6rem 0;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    width: 100%;
+}
+.contact-left form .form-control::placeholder{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-left .btn-submit{
+    padding: 1.4rem 3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    transition: var(--transition);
+}
+.contact-left .btn-submit:hover{
+    background-color: #000;
+}
+
+#insta{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/insta-pic.jpg') center/cover no-repeat fixed;
+    min-height: 65vh;
+}
+#insta .title h2{
+    color: var(--light-color);
+}
+#insta .title h2::after{
+    background-color:black;
+}
+.insta-grid > div{
+    height: 400px;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.insta-grid > div img{
+    height: 100%;
+    object-fit: cover;
+}
+.insta-grid > div:hover{
+    transform: scale(0.9);
+}
+
+/* footer */
+#footer{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content h3{
+    color: var(--light-color);
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.footer-content ul{
+    flex-direction: column;
+}
+.footer-content ul li a{
+    color: var(--light-color);
+    font-size: 1.5rem;
+    transition: var(--transition);
+}
+.footer-content ul li a:hover{
+    opacity: 0.7;
+}
+.footer-content ul li{
+    margin: .5rem 1rem;
+}
+.footer-content > div:first-child{
+    margin-bottom: 3rem;
+}
+.footer-content > div:first-child div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 5rem auto;
+    border-radius: 50%;
+}
+
+
+/* Media Queries */
+
+@media(min-width: 450px){
+    .work-bottom{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        row-gap: 0;
+    }
+}
+@media(min-width: 576px){
+    .title h2{
+        font-size: 4rem;
+    }
+    .work-bottom{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portfolio-grid > div{
+        height: 300px;
+        overflow: hidden;
+    }
+    .portfolio-grid > div img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-left form .form-control{
+        max-width: 500px;
+    }
+    .footer-content ul{
+        flex-direction: row;
+    }
+
+}
+
+@media(min-width: 768px){
+    .header-content h1{
+        font-size: 7rem;
+    }
+    .about-content, .work-top{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 6rem;
+        row-gap: 0;
+    }
+    .about-left{
+        margin-bottom: 0;
+    }
+    .contact-content{
+        flex-direction: row;
+    }
+    .contact-right{
+        padding-left: 3rem;
+        width: 50%;
+    }
+    .contact-left{
+        width: 50%;
+    }
+    .insta-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 992px){
+    .insta-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .insta-grid > div{
+        height: 250px;
+    }
+}
+
+@media(min-width: 1200px){
+    .portfolio-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .portfolio-grid > div:nth-child(2){
+        grid-column: 2 / 4;
+    }
+    .portfolio-grid > div:nth-child(6){
+        grid-column: 1 / 3;
+    }
+}
 
